@@ -122,3 +122,9 @@ GitHub repository configuration.
         1. Open each file in `.github\workflows` and change `youremail@email.com` with your email
         1. Visit <https://github.com/shovel-org/GithubActions> for more information
 1. 🎉🎉 Everything set. High quality and automated bucket is ready for new users 🎉🎉
+
+-   [scoop 教程](https://zhuanlan.zhihu.com/p/135278662)
+-   file hash
+
+```powershell
+certutil -hashfile file.exe SHA256

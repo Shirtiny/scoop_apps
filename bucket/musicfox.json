@@ -1,0 +1,11 @@
+{
+    "version": "2.1.0",
+    "description": "musicfox是一款使用go编写的网易云音乐命令行程序。",
+    "homepage": "https://github.com/anhoder/go-musicfox",
+    "url": "https://github.com/anhoder/go-musicfox/releases/download/v2.1.0/musicfox.exe",
+    "hash": "983df9fd8e1edd782ff6b01795cee70d189fdbfc80d6662b64079043674ba400",
+    "bin": "musicfox.exe",
+    "autoupdate": {
+      "url": "https://github.com/anhoder/go-musicfox/releases/download/v$version/musicfox.exe"
+    }
+}
