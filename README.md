@@ -127,4 +127,79 @@ GitHub repository configuration.
 -   file hash
 
 ```powershell
+# 安装 scoop
+set-executionpolicy remotesigned -scope currentuser
+$env:SCOOP='D:\software\scoop'
+[environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
+$env:SCOOP_GLOBAL='D:\software\globalScoopApps'
+[environment]::setEnvironmentVariable('SCOOP_GLOBAL',$env:SCOOP_GLOBAL,'Machine')
+iwr -useb get.scoop.sh | iex
+scoop install sudo
+scoop install aria2
+scoop checkup
+
+# 使用
+scoop list
+scoop search
+scoop update
+scoop cache rm *
+scoop uninstall
+
+# 添加此仓库为存储桶  自己维护一个存储桶还是太麻烦了  后面只在这里放软件连接
+scoop bucket add shirtiny https://github.com/Shirtiny/scoop_apps
+# musicfox官方存储桶
+scoop bucket add go-musicfox https://github.com/go-musicfox/go-musicfox.git 
+# 其他桶
+scoop bucket add extras
+scoop bucket add nirsoft
+scoop bucket add dorado https://github.com/h404bi/dorado
+scoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git'
+scoop bucket add nerd-fonts
+scoop bucket add java  # zulu
+scoop bucket add versions
+
+# 文件hash
 certutil -hashfile file.exe SHA256
+
+# 好用的软件
+# macast  使用电脑接收发送自手机的视频、图片和音乐，支持主流视频音乐软件和其他任何符合DLNA协议的投屏软件
+https://github.com/xfangfang/Macast/blob/main/README_ZH.md
+
+# go-musicfox go-musicfox是用Go写的又一款网易云音乐命令行客户端
+https://github.com/go-musicfox/go-musicfox
+
+# TrafficMonitor 用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件，并支持任务栏显示，支持更换皮肤。
+https://github.com/zhongyang219/TrafficMonitor
+
+# Folder-locker 给文件夹上锁 加密钥
+https://github.com/Albert-W/Folder-locker
+
+# yank note 一款强大可扩展的 Markdown 编辑器 可以在编写时运行代码
+https://github.com/purocean/yn/blob/develop/README_ZH-CN.md
+
+# SwitchHosts 是一个管理 hosts 文件的应用
+https://github.com/oldj/SwitchHosts
+
+# table plus 现代化的数据库GUI  正版需要购买
+https://tableplus.com/
+
+# Snipaste 是一个简单但强大的截图工具
+https://zh.snipaste.com/
+
+# termius SSH客户端、命令行工具 支持github学生包
+https://termius.com/
+
+# draw io 画流程图的
+https://drawio-app.com/product/
+
+# synfig 开源的动画制作工具 
+https://github.com/synfig/synfig/
+
+# potplayer 视频播放器
+https://potplayer.tv/
+
+# clash  强大又好看的代理工具  mac、win、安卓都有  ios上用choc，也是clash内核
+https://github.com/Fndroid/clash_for_windows_pkg
+
+# observablehq 在线 notebook
+https://observablehq.com
