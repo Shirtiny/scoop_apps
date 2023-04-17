@@ -203,3 +203,6 @@ https://github.com/Fndroid/clash_for_windows_pkg
 
 # observablehq 在线 notebook
 https://observablehq.com
+
+# volta  node版本管理工具，类似nvm，但支持不同项目不同node版本
+https://docs.volta.sh/guide/understanding#managing-your-project
