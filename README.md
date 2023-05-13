@@ -169,7 +169,7 @@ certutil -hashfile file.exe SHA256
 # terminal
 scoop install ConEmu
 scoop install oh-my-posh
-scoop install Delugia-Nerd-Font
+scoop install Delugia-Nerd-Font-Complete
 notepad $profile
 ```ps1
 # oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\star.omp.json"
