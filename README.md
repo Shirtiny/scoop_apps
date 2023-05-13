@@ -206,3 +206,6 @@ https://observablehq.com
 
 # volta  node版本管理工具，类似nvm，但支持不同项目不同node版本
 https://docs.volta.sh/guide/understanding#managing-your-project
+
+# localsend 可以在同wifi下跨设备传输文件
+https://github.com/localsend/localsend
