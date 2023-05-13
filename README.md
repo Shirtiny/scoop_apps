@@ -126,6 +126,8 @@ GitHub repository configuration.
 -   [scoop 教程](https://zhuanlan.zhihu.com/p/135278662)
 -   file hash
 
+https://scoop.sh/#/
+
 ```powershell
 # 安装 scoop
 set-executionpolicy remotesigned -scope currentuser
@@ -163,6 +165,16 @@ scoop bucket add versions
 
 # 文件hash
 certutil -hashfile file.exe SHA256
+
+# terminal
+scoop install ConEmu
+scoop install oh-my-posh
+scoop install Delugia-Nerd-Font
+notepad $profile
+```ps1
+# oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\star.omp.json"
+(@(& 'E:/software/scoop/apps/oh-my-posh/current/oh-my-posh.exe' init pwsh --config='E:\software\scoop\apps\oh-my-posh\current\themes\star.omp.json' --print) -join "`n") | Invoke-Expression
+```
 
 # 好用的软件
 # macast  使用电脑接收发送自手机的视频、图片和音乐，支持主流视频音乐软件和其他任何符合DLNA协议的投屏软件
