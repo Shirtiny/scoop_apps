@@ -144,6 +144,9 @@ scoop search
 scoop update
 scoop cache rm *
 scoop uninstall
+# 代理
+scoop config proxy 127.0.1:7890
+scoop config rm proxy
 
 # 添加此仓库为存储桶  自己维护一个存储桶还是太麻烦了  后面只在这里放软件连接
 scoop bucket add shirtiny https://github.com/Shirtiny/scoop_apps
