@@ -176,51 +176,53 @@ notepad $profile
 (@(& 'E:/software/scoop/apps/oh-my-posh/current/oh-my-posh.exe' init pwsh --config='E:\software\scoop\apps\oh-my-posh\current\themes\star.omp.json' --print) -join "`n") | Invoke-Expression
 ```
 
-# 好用的软件
-# macast  使用电脑接收发送自手机的视频、图片和音乐，支持主流视频音乐软件和其他任何符合DLNA协议的投屏软件
+## 好用的软件
+### macast  使用电脑接收发送自手机的视频、图片和音乐，支持主流视频音乐软件和其他任何符合DLNA协议的投屏软件
 https://github.com/xfangfang/Macast/blob/main/README_ZH.md
 
-# go-musicfox go-musicfox是用Go写的又一款网易云音乐命令行客户端
+### go-musicfox go-musicfox是用Go写的又一款网易云音乐命令行客户端
 https://github.com/go-musicfox/go-musicfox
 
-# TrafficMonitor 用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件，并支持任务栏显示，支持更换皮肤。
+### TrafficMonitor 用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件，并支持任务栏显示，支持更换皮肤。
 https://github.com/zhongyang219/TrafficMonitor
 
-# Folder-locker 给文件夹上锁 加密钥
+### Folder-locker 给文件夹上锁 加密钥
 https://github.com/Albert-W/Folder-locker
 
-# yank note 一款强大可扩展的 Markdown 编辑器 可以在编写时运行代码
+### yank note 一款强大可扩展的 Markdown 编辑器 可以在编写时运行代码
 https://github.com/purocean/yn/blob/develop/README_ZH-CN.md
 
-# SwitchHosts 是一个管理 hosts 文件的应用
+### SwitchHosts 是一个管理 hosts 文件的应用
 https://github.com/oldj/SwitchHosts
 
-# table plus 现代化的数据库GUI  正版需要购买
+### table plus 现代化的数据库GUI  正版需要购买
 https://tableplus.com/
 
-# Snipaste 是一个简单但强大的截图工具
+### Snipaste 是一个简单但强大的截图工具
 https://zh.snipaste.com/
 
-# termius SSH客户端、命令行工具 支持github学生包
+### termius SSH客户端、命令行工具 支持github学生包
 https://termius.com/
 
-# draw io 画流程图的
+### draw io 画流程图的
 https://drawio-app.com/product/
 
-# synfig 开源的动画制作工具 
+### synfig 开源的动画制作工具 
 https://github.com/synfig/synfig/
 
-# potplayer 视频播放器
+### potplayer 视频播放器
 https://potplayer.tv/
 
-# clash  强大又好看的代理工具  mac、win、安卓都有  ios上用choc，也是clash内核
+### clash  强大又好看的代理工具  mac、win、安卓都有  ios上用choc，也是clash内核
 https://github.com/Fndroid/clash_for_windows_pkg
 
-# observablehq 在线 notebook
+### observablehq 在线 notebook
 https://observablehq.com
 
-# volta  node版本管理工具，类似nvm，但支持不同项目不同node版本
+### volta  node版本管理工具，类似nvm，但支持不同项目不同node版本
 https://docs.volta.sh/guide/understanding#managing-your-project
 
-# localsend 可以在同wifi下跨设备传输文件
+### localsend 可以在同wifi下跨设备传输文件
 https://github.com/localsend/localsend
+
+### moonLight和sunshine串流
